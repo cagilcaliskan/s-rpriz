@@ -98,7 +98,7 @@ elif st.session_state.adim == 6:
     ax.fill_between(x, y, color='red', alpha=0.5)
     ax.axis('off')
 
-    ax.set_title(f"Tebrikler Minik Kuşum! Toplam Skorun: {st.session_state.skor}\nSeni Çok Seviyorum! ❤️", 
+    ax.set_title(f"Tebrikler Ozim! Toplam Skorun: {st.session_state.skor}\nSeni Çok Seviyorum! ❤️", 
                  fontsize=14, color='darkred', fontweight='bold')
 
     st.pyplot(fig)
